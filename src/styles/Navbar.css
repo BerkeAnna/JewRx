@@ -1,0 +1,62 @@
+.navbar-custom {
+  background-color: rgb(23, 25, 35) !important;/* Matches the bg-dark class */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for better separation */
+  border-bottom: 3px solid rgba(221, 199, 161, 0.8); /* Arany színű vonal alul */
+  }
+  
+  .navbar-brand {
+    color:  rgb(221, 199, 161);
+    margin-right: 0;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 15px;
+  }
+  
+  .text-nav {
+    color:  rgb(221, 199, 161);
+    text-decoration: none;
+  }
+  .text-nav:hover {
+    color:  rgb(102, 79, 61);
+    text-decoration: none;
+  }
+  
+  .text-acc {
+    color:  rgb(221, 199, 161);
+  }
+  
+  .text-acc:hover {
+    color:  rgb(102, 79, 61);
+    text-decoration: none;
+  }
+  
+  #account {
+    font-weight: bold;
+  }
+  
+  @media (min-width: 576px) {
+    .d-sm-none {
+      display: none !important;
+    }
+  
+    .d-sm-block {
+      display: block !important;
+    }
+  }
+  
+  .px-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .ml-2 {
+    margin-left: 0.5rem;
+  }
+  
